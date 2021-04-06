@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+        <h:outputStylesheet name="./css/style.css"/>
+        <h:outputStylesheet name="./css/bootstrap.css"/>
+        <h:outputStylesheet name="./css/bootstrap.min.css"/>
+        <h:outputStylesheet name="./css/background.css"/>
+        <h:outputStylesheet name="./css/font-awesome.min.css"/>
+        <h:outputStylesheet name="./css/bootstrap-grid.css"/>
+        <h:outputStylesheet name="./css/test4.css"/>
+        
+        <title>Favourite Books</title>
+        
+    </h:head>
+    
+    <h:body>
+  <div class="bg-warning p-5 rounded-lg m-3">
+  <h1 class="display-3">Welcome to my Game Library!</h1>
+  <hr class="my-3"></hr>
+  <p>To find out information about a game click the button below.</p>
+  <a class="btn btn-primary btn-lg" href="ajaxSearchBox.xhtml" role="button">Learn more</a>
+</div>
+        
+       <div id="games" class="our">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Game Database</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 margin_bottom">
+                    <div class="row">
+
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="two-box">
+                                <img src="resources/images/witcher.jpg" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                            <div class="Games">
+                                <h3>Video games</h3>
+                                <a href="videogames/View.xhtml">View Database</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 margin_bottom">
+                    <div class="row">
+
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="two-box">
+                                <img src="resources/images/our-image2.jpg" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                            <div class="Games">
+                                <h3>Board Games</h3>
+                                <a href="#">View Database</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="two-box">
+                                <img src="resources/images/outdoorgames.jpg" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                            <div class="Games">
+                                <h3>Outdoor Games</h3>
+                                <a href="#">View Database</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </h:body>
+
+</html>
